@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25209369'))
 API_HASH = environ.get('API_HASH', '2a1bd33d305f310578f27453e17e45c6')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6313971531:AAE11XHgIUYe1fBFHnKqHLFscJSp2JVyM-0")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6313971531:AAHqBZ-S7zrnyDiTtP1DcWsfiRFE09zqVo0")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 400))
@@ -49,10 +49,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY',False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'just2earn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0b612c9cfd1df9f1a6573d238c5f334768ad965d')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'just2earn.com')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '0b612c9cfd1df9f1a6573d238c5f334768ad965d')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f4d12bf96468cdb555af669aec21942d13382211')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'tnshort.net')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'f4d12bf96468cdb555af669aec21942d13382211')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True ))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
